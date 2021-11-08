@@ -1,0 +1,807 @@
+/* founts
+Poppins 400 500 700 regular semi-blod bold
+Gafata
+Open Sans
+
+*/
+
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;background: #fff;
+}
+h1{
+    font-family: Poppins;
+    padding: 0;
+    margin: 0;
+}
+p{
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: normal;
+    line-height: 20px;
+    
+    
+
+}
+a{
+    text-decoration: none;
+}
+/* h1{
+
+    color: #fff;
+    text-transform: uppercase;
+    -webkit-box-reflect: below 1px linear-gradient(transparent,#fff);
+    line-height: 0.70em;
+} */
+
+.nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    height: 100px;
+    
+}
+.nav-bar .nav-logo{
+    margin: 45px 0 0 237px;
+    margin-top: 106px;
+}
+.nav-bar #logo{
+    /* background: url('../data/logo.svg')no-repeat; */
+    overflow: hidden;
+    width: 300px;
+    height: 100px;
+}
+.nav-list{
+    list-style: none;
+    display: flex;
+    position: absolute;
+    right: 530px;
+}
+.nav-iterm{
+    margin: 0 1.98rem;
+    
+}
+.nav-iterm:last-child{
+    margin-right: 0;
+}
+.nav-iterm a{
+    color: #000000;
+    text-transform: uppercase;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: regular;
+   
+}
+.nav-bar .nav-login{
+    position: absolute;
+    right: 237px;
+    width: 199px;
+    height: 80px;
+    /* border: 1px solid #093132; */
+    border-radius: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: #7FF272;
+}
+.nav-login a{
+    width: 166.26px;
+    height: 32px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #093132;
+}
+/* end of nav */
+
+/* cover */
+
+
+.container{
+    width: 100%;
+    position: relative;
+
+}
+.container .cover{
+    background: url('./svg\ data/wave1.svg')no-repeat center;
+    background-size: cover;
+    height: 1199px;
+    width: 100%;
+
+}
+
+.coverside-left{
+    position: absolute;
+    top: 10%;
+    left: 236px;
+    width: 739px;
+    height: 408px;
+    
+}
+
+.container .coverside-left h1{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 90px;
+    line-height: 135px;
+    color: #FFFFFF;
+    line-height: 135px;
+}
+.container .coverside-left p{
+    width: 769px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: regular;
+    font-size: 22px;
+    line-height: 40px;
+/* or 182% */
+
+
+color: #FFFFFF;
+}
+#cover-text{
+    position: absolute;
+    left: 4px;
+}
+.getstarted {
+    background: #7FF272;
+    border-radius: 80px;
+    width: 284px;
+    height: 80px;
+    position: absolute;
+    left: 1px;
+    bottom: -50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.getstarted #button-anim {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 39px;
+    text-transform: uppercase;
+    color: #000000;
+}
+.container .coverside-right{
+    position: absolute;
+    right: 187px;
+    top: 10%;
+}
+
+
+/*Trusted Partners */
+.container .content{
+    width: 100%;
+    height: 300px;
+}
+.container .content h1{
+    text-align: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    color: #093132;
+}
+#partners{
+    background: url(../cryptonite/png\ data/partners.png) no-repeat;
+    width: 1470px;
+    height: 299px;
+    position: absolute;
+    left: 213px;
+}
+
+/* section1 */
+#section1-space{
+    background: url('./svg\ data/wave1.svg')no-repeat center;
+    background-size: cover;
+    height: 1315.89px;
+    width: 100%;
+}
+.section1{
+    margin: 0px 240px;
+    padding-top: 260px;
+}
+
+.section1 .col {
+    width: 33%;
+    float: left;
+}
+.secure-wallet {
+    width: 100%;
+}
+.secure-wallet .box1 {
+    margin-bottom: 130px;
+}
+
+.services-image {
+    width: 100%;
+}
+.trading-protection {
+    width: 100%;
+}
+.trading-protection .box3 {
+    margin-bottom: 130px;
+}
+
+.section1 .box1 img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    width: 94px;
+    height: 101px;
+}
+.section1 .box2 img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    width: 94px;
+    height: 101px;
+}
+.section1 .box3 img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    width: 94px;
+    height: 101px;
+}
+.section-container {
+    margin-top: 70px;
+    width: 100%;
+}
+.section-container img {
+    width: 520px;
+    height: 530px;
+    padding-right: 180px;
+    margin-left: -55px;
+    
+}
+.section1 .box4 img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    width: 94px;
+    height: 101px;
+}
+
+
+.trading-protection {
+    width: 100%;
+}
+
+.section1 h3{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 38px;
+    line-height: 40px;
+    /* identical to box height, or 105% */
+    text-align: center;
+
+    color: #FFFFFF;
+}
+.section1 p{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 40px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+/* section1 end */
+
+
+/* section2  */
+.section2{
+    background: white;
+    position: relative;
+}
+.section2 .white-space{
+    background: white;
+    height: 50rem;
+}
+
+/* content about us */
+
+.section2 .content-aboutus{
+    width: 100%;
+    font-family: Poppins;
+    
+}
+.section2 .content-aboutus .about{
+    width: 40%;
+    position: absolute;
+    left: 190px;
+    margin-top: 60px;
+}
+
+.section2 .content-aboutus h3{
+    font-size: 48px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #093536;
+    
+}
+.section2 .content-aboutus h4 {
+    font-family: Poppins;
+    font-size: 26px;
+
+}
+.section2 .content-aboutus p{
+    font-size: 22px;
+    font-family: Poppins;
+    line-height: 40px;
+    color: #0f0d0d;
+}
+.section2 .about-img{
+    width: 656px;
+    height: 518px;
+    /* background:url(../cryptonite/png\ data/about.png) ; */
+    position: absolute;
+    right: 268px;
+    top: -58px;
+
+}
+
+
+
+/* section3 */
+/*lilian's addittion*/
+/*market section*/
+.market-section {
+    background-color: white;
+    position: relative;
+    height: 600px;
+}
+.market-content {
+    margin: 0px 240px;
+}
+.market-info {
+    width: 100%;
+}
+.coins {
+    float: left;
+    width: 48%;
+    position: relative;
+    top: -121px;
+
+}
+
+.coins-content {
+    padding-bottom: 50px;
+    padding-left: 10px;
+}
+.coin-info{
+    width: 683px;
+    height: 350px;
+}
+
+.market-section .coin-info h3{
+    font-family: Poppins;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 48px;
+    line-height: auto;
+    color: #093536;
+}
+.market-section .coin-info p{
+    font-family: Poppins;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 22px;
+    line-height: 40px;
+}
+#second-line{
+    padding-top: 40px;
+}
+
+
+/* latest-information */
+
+.latest-information {
+    height: 390px;
+    background-color: white;
+    position: relative;
+}
+
+.info-title {
+    text-align: center;
+    padding-bottom: 30px;
+    color: #093536;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 35px;
+    position: relative;
+    top: -23px;
+
+}
+.information-blocks {
+    position: absolute;
+    margin: 0px 240px;
+
+}
+.latest-blocks {
+    width: 100%;
+}
+.market-blocks {
+    float: left;
+    width: 32%;
+    z-index: 23;
+    position: relative;
+}
+.market-blocks h3{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 30px;
+/* or 107% */
+text-transform: capitalize;
+color: #000000;
+
+}
+.market-blocks p{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18.5px;
+    color: #000000;
+}
+.market-blocks .blockA {
+     width: 100%;
+     margin-top: 25px;
+     margin-bottom: 25px;
+     position: relative;
+     top: -30px;
+
+}
+.market-blocks .blockC {
+    width: 100%;
+     margin-top: 25px;
+     margin-bottom: 25px;
+     position: relative;
+     top: -30px;
+}
+.market-blocks .blockB {
+     width: 100%;
+     position: relative;
+     top: -39px;
+
+}
+.blockA-content {
+    padding: 9px 37px 24px 28px;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%), 0px 0px 31px rgb(0 0 0 / 7%);
+    border-top: 2.3px solid #888888;
+    border-right: 2.3px solid #888888;
+    border-bottom: 3.3px solid #888888;
+    border-left: 2.3px solid #888888;
+    border-radius: 19px;
+    width: 359px;
+    height: 305px;
+    left: 233px;
+    top: 4600px;
+    margin-right: -62px;
+    margin-top: 61px;
+    margin-left: -114px;
+}
+
+
+.blockC-content {
+    
+    padding: 9px 37px 24px 28px;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%), 0px 0px 31px rgb(0 0 0 / 7%);
+    border-top: 2.3px solid #888888;
+    border-right: 2.3px solid #888888;
+    border-bottom: 3.3px solid #888888;
+    border-left: 2.3px solid #888888;
+    border-radius: 19px;
+    /* width: 50%; */
+    height: 223px;
+    width: 359px;
+    height: 305px;
+    left: 233px;
+    top: 4600px;
+    /* position: relative; */
+    margin-right: -62px;
+    margin-top: 61px;
+    margin-left: 211px;
+}
+
+
+.blockB-content {
+    
+    padding: 23px 59px 14px 33px;
+    box-shadow: 5px 9px 18px rgb(0 0 0 / 29%), 8px 5px 31px rgb(0 0 0 / 33%);
+    border-top: 2.5px solid #7FF272;
+    border-left: 2.5px solid #7FF272;
+    border-right: 2.5px solid #7FF272;
+    border-bottom: 2.5px solid #7FF272;
+    border-radius: 15px;
+    width: 433px;
+    height: 371.49px;
+    left: 741px;
+    bottom: 1990.51px;
+    margin-top: 38px;
+}
+
+
+.market-blocks p{
+    font-weight: 400;
+    font-style: normal;
+    line-height: 23px;
+    font-size: 19px;
+}
+.market-blocks h3{
+    font-weight: 700;
+    font-style: normal;
+    line-height: 32px;
+    font-size: 26px;
+}
+.market-blocks a{
+    font-family: Poppins;
+    font-weight: regular;
+    font-style: normal;
+    line-height: 15px;
+    font-size: 13px;
+    text-decoration-line: underline;
+    color: #093536;
+    
+}
+
+
+/*subscribe section*/
+
+#phone-wave{
+    background: #093132;
+    width: 100%;
+    height: 350px;
+    position: relative;
+    
+}
+#info-wave {
+    background: url("./data/info-wave.png")no-repeat;
+    overflow: hidden;
+    width: 100%;
+    height: 26rem;
+    position: relative;
+    top: -30px;
+
+}
+.phones-section {
+    background: #093132;
+}
+.phones {
+    float: left;
+    width: 48%;
+     
+}
+
+.mobile-phone {
+    margin-left: 240px;
+    margin-bottom: -150px;
+}
+.phones-content {
+    margin-right: 240px;
+    padding-left: 90px;
+}
+.download-content {
+    width: 100%;
+    position: relative;
+     
+}
+
+.download-images {
+    position: absolute;
+}
+.QR {
+    clear: both;
+}
+.QRcode{
+     width: 40%;
+     margin-left: 90px;
+}
+
+#download-title {
+    font-family: Poppins;
+    font-weight: bold;
+    line-height: 65px;
+    letter-spacing: 0px;
+    font-size: 48px;
+    color: #FFFFFF;
+
+}
+#download-paragraph {
+    font-family: Poppins;
+    font-weight: regular;
+    font-style: normal;
+    line-height: 40px;
+    font-size: 22px;
+    color: #FFFFFF;
+}
+
+.apple-store {
+    float: left;
+    
+}
+.apple-img {
+    padding-top: 8px;
+}
+#wave4 {
+    background: url("./data/wave4.png")no-repeat;
+    overflow: hidden;
+    width: 100%;
+    height: 15rem;
+    top: 90%;
+}
+
+.subscribe {
+    width: 100%;
+    clear: both;
+    background-color: #FFFFFF;
+    margin-top: -40px;
+
+}
+.subscribe p{
+    padding: 10px;
+}
+#subscribe-title {
+    font-family: Poppins;
+    text-align: center;
+    font-weight: 750;
+    font-size: 40px;
+    font-style: normal;
+
+}
+#subscribe-paragraph {
+    font-family: Poppins;
+    text-align: center;
+    font-style: normal;
+    font-weight: regular;
+    font-size: 32px;
+
+}
+.subscribe-button {
+    text-align: center;
+}
+
+#subscribe-btn {
+    border-radius: 100px;
+    margin-bottom: 40px;
+    width: 30%;
+    line-height: 4em;
+    padding: 2px 20px 2px 18px;
+
+
+}
+input[type="email" i] {
+    padding: 1px 2px;
+}
+#try {
+     margin-left: -68px;
+     margin-top: -90px;
+    /*height: 25px;*/
+    /*width: 80px;*/
+    background: #7FF272;
+    border-radius: 180px;
+    -webkit-appearance: none;
+    padding: 1px 15px 21px 15px;
+}
+
+.arrow-img{
+    position: relative;
+    bottom: -11px;
+}
+/*footer section*/
+
+footer {
+    position: relative;
+    background: #093132;
+    width: 100%;
+    height: 400px;
+    clear: both;
+    
+}
+#footer-bg{
+    margin: 0 240px 0 240px;
+    color: #fff;
+    margin-bottom: 40px;
+}
+footer .col{
+    float: left;
+    width: 23%;
+    padding: 10px;
+}
+#p1{
+    color: #7ff272;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+}
+footer .col p {
+    padding: 5px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    /* or 24px */
+    letter-spacing: -0.01em;
+    /* White */
+    color: #FFFFFF;
+}
+.image{
+    margin-top: -6px;
+
+    
+}
+
+footer img{
+    padding: 5px;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+}
+
+#logo2 {
+    background: url('./data/footer-img.png')no-repeat;
+    overflow: hidden;
+    width: 300px;
+    height: 50px;
+    margin-top: 8px;
+}
+
+footer .col h2 {
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 135%;
+    letter-spacing: -0.01em;
+    /* letter-spacing: -0.01em; */
+    color: #7ff272;
+    
+}
+#ourapp{
+    text-align: center;
+    margin-top: 189px;
+}
+#ourapp a{
+    text-decoration-line: underline;
+    color: #7FF272;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: regular;
+    font-size: 12px;
+    position: relative;
+    top: -22px;
+}
+#copyright {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    /* or 24px */
+    letter-spacing: -0.01em;
+    color: #FFFFFF;
+    position: absolute;
+    bottom: -1px;
+    left: 782px;
+}
+
+
